@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "DM Sans", serif;
+    font-family: "DM Sans", sans-serif;
 }
 :root{
     --max-width:1200px;
@@ -346,6 +346,7 @@
 .element__furniture:hover{
     background-color: var(--text-color);
     cursor: pointer;
+    filter:opacity(1)
 }
 .element__furniture p{
     margin-top: 14px;
@@ -361,4 +362,44 @@
     max-width: var(--max-width);
     height: 560px;
     margin: 140px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading__comment{
+    width: 535px;
+    height: 190px;
+}
+.heading__comment h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.heading__comment p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.statistics{
+    margin-top: 40px;
+    display: flex;
+    width: 130px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.statistics p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+.estimation{
+    display: flex;
+    margin-top: 6px;
+}
+.estimation p{
+    margin-left: 8px;
 }
